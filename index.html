@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的小天地</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 信封动画 -->
+    <div class="envelope-animation" id="envelopeAnimation">
+        <div class="envelope">
+            <div class="envelope-front"></div>
+            <div class="envelope-back"></div>
+            <div class="letter">
+                <div class="letter-content">
+                    <h2>欢迎来到这里</h2>
+                    <p>开启一段美好的旅程</p>
+                    <button class="confirm-btn" id="confirmBtn">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <header>
+        <nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#hobbies">兴趣爱好</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        
+        
+        <section id="about">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>你只需要知道我姓曹就可以了，一个热爱生活、喜欢探索新事物，以及打游戏的女孩。</p>
+                    <p>我相信每一天都是一个新的开始，每一个瞬间都值得被珍惜让我们用相机记录下一切，今天的游戏时光又要开始了。</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="hobbies">
+            <h2>我的兴趣爱好</h2>
+            <div class="hobby-grid">
+                <div class="hobby-card">
+                    <h3>四角舟</h3>
+                    <p>明日方舟是一款非常坐牢的，嗯，对</p>
+                </div>
+                <div class="hobby-card">
+                    <h3>摄影</h3>
+                    <p>用镜头记录生活中的美好瞬间，监管要出来了，快跑</p>
+                </div>
+                <div class="hobby-card">
+                    <h3>铲屎官</h3>
+                    <p>哈基米呀，南北绿豆</p>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 我的小天地</p>
+    </footer>
+    
+  <!-- 背景音乐 -->
+    <audio id="background-music" autoplay loop muted>
+        <source src="亚光_ - 秋绪.mp3" type="audio/mpeg">
+        您的浏览器不支持音频元素。
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
